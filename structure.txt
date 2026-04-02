@@ -1,0 +1,49 @@
+.
+├── inputs
+│   ├── 01_frecuenciadeacceso
+│   ├── 02_duracionconexion
+│   ├── 03_patrón_temporal
+│   ├── 04_interaccionforos_chats
+│   ├── 05_latencia_de_repuesta_a_menciones_tareas
+│   ├── 06_busquedadeapoyo
+│   ├── 07_entregadetareas
+│   ├── 08_conductaenevaluaciones
+│   ├── 09.Calidad_LongitudEntregas
+│   └── 12_cambios_en_patrón_de_uso
+├── notebook
+│   ├── 01.FrecuenciaDeAcceso.ipynb
+│   ├── 02.DuracionConexion.ipynb
+│   ├── 03. Patrón Temporal.ipynb
+│   ├── 04.InteraccionForos_Chats.ipynb
+│   ├── 05. Latencia de repuesta a menciones_tareas.ipynb
+│   ├── 06.BusquedaDeApoyo.ipynb
+│   ├── 07.EntregaDeTareas.ipynb
+│   ├── 08.ConductaEnEvaluaciones.ipynb
+│   ├── 09.Calidad_LongitudEntregas.ipynb
+│   └── 12.Cambios en patrón de uso.ipynb
+├── outputs
+│   ├── 01_frecuenciadeacceso
+│   ├── 02_duracionconexion
+│   ├── 03_patrón_temporal
+│   ├── 04_interaccionforos_chats
+│   ├── 05_latencia_de_repuesta_a_menciones_tareas
+│   ├── 06_busquedadeapoyo
+│   ├── 07_entregadetareas
+│   ├── 08_conductaenevaluaciones
+│   ├── 09.Calidad_LongitudEntregas
+│   └── 12_cambios_en_patrón_de_uso
+├── python
+│   ├── 01_frecuenciadeacceso.py
+│   ├── 02_duracionconexion.py
+│   ├── 03_patrón_temporal.py
+│   ├── 04_interaccionforos_chats.py
+│   ├── 05_latencia_de_repuesta_a_menciones_tareas.py
+│   ├── 06_busquedadeapoyo.py
+│   ├── 07_entregadetareas.py
+│   ├── 08_conductaenevaluaciones.py
+│   ├── 09.Calidad_LongitudEntregas.py
+│   ├── 10.TonoEnForos.py
+│   └── 12_cambios_en_patrón_de_uso.py
+└── structure.txt
+
+25 directories, 22 files

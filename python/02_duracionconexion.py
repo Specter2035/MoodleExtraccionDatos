@@ -13,8 +13,19 @@ import pandas as pd
 # -------------------------
 # CONFIGURACIÓN
 # -------------------------
-RUTA_JSON = "/content/logs_KX7A_20260220-1944_GrupoB.json"
-RUTA_SALIDA_CSV = "/content/final_user_metrics.csv"
+from pathlib import Path
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+INPUT_DIR = BASE_DIR / "inputs" / "02_duracionconexion"
+OUTPUT_DIR = BASE_DIR / "outputs" / "02_duracionconexion"
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+json_files = sorted(INPUT_DIR.glob("*.json"))
+if not json_files:
+    raise FileNotFoundError(f"No JSON files found in {INPUT_DIR}")
+
+RUTA_JSON = json_files[0]
+RUTA_SALIDA_CSV = OUTPUT_DIR / "final_user_metrics.csv"
 
 # Nombres de llaves esperadas en el JSON
 COLUMNA_ACTOR = "nombrecompletodelusuario"
